@@ -66,7 +66,7 @@ public class Deck {
             Scanner input = new Scanner(System.in);
             response = input.next().toUpperCase().charAt(0);
             if (response != 'Y' && response != 'N') {
-                System.out.println("Eso no es una respuesta valida, imbecil");
+                System.out.println("No corresponde a ninguna de las anteriores, vuelve a intentarlo");
                 continue;
             }
             respuestaValida = true;
